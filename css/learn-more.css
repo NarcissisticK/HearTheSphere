@@ -1,0 +1,151 @@
+*{
+	box-sizing: border-box;
+}
+
+/* HEADER */
+#header-nav {
+  background-color: #009900;
+  border-radius: 0;
+  border: 0;
+  height: 150px;
+  margin-bottom: 0;
+}
+
+.navbar-header > a {
+  width: 138px;
+  height: 138px;
+  /*margin: 15px 15px 10px 0;*/
+  margin-left: -15px;
+  margin-top: 5px;
+  margin-bottom: auto;
+  margin-right: 10px;
+  background-color: white;
+  border: 3px solid #1f7a1f;
+  border-radius: 50%;
+}
+
+#logo-img {
+  background: url('../images/a-img.png') no-repeat;
+  width: 123px;
+  height: 123px;
+  margin-left: 10px;
+  margin-top: 8px;
+  /*background-color: white;
+  border-radius: 50%;*/
+}
+
+.navbar-brand {
+  padding-top: 15px;
+}
+
+.navbar-brand h1 { /* Website name */
+  font-family: 'Lora', serif;
+  color: #fff;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-shadow: .5px .5px .5px #222;
+  line-height: .75;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  vertical-align: center;
+  margin-right: -60px;
+  text-align: center;
+}
+#nav-list a {
+  color: white;
+  margin-top: 30px;
+  vertical-align: center;
+}
+#nav-list a:hover {
+  background: green;
+  color: black;
+}
+#nav-list a span {
+  font-size: 35px;
+}
+
+#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -55px;
+}
+.bg-overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 57.5%;
+  z-index: -1;
+  background: #424252;
+}
+
+
+/* END HEADER*/
+
+/* MAIN BODY */
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+h2 {
+	font-size: 40px;
+	text-transform: uppercase;
+	margin: 0;
+}
+.bg-img {
+	background: url('../images/jumbotron_1200.jpeg') no-repeat;
+	-webkit-background-size: cover; 
+	background-position: center center; 
+	height: 675px;
+	filter: blur(5px);
+}
+.bg-text {
+  position: absolute;
+  margin-top: -320px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  width: 90%;
+  padding: 40px 0;
+  padding-bottom: 10px;
+  text-align: center;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-weight: bold;
+  border: 10px inset #fff;
+}
+.bg-text h2 {
+  font-size: 20px;
+  margin-top: -10px;
+  margin-bottom: 15px;
+  font-family: 'Oxygen', sans-serif;
+  text-decoration: underline;
+}
+.bg-text p {
+  padding: 0, 8%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  font-size: 16px; 
+  font-family: 'Oxygen', sans-serif;
+}
+
+/* END MAIN BODY*/
